@@ -1,0 +1,68 @@
+.profile-container {
+  display: flex;
+  margin: 5vh 6.5vw;
+  margin-top: 0;
+}
+
+.profile-left {
+  flex: 0.5;
+}
+
+.profile-right {
+  flex: 0.5;
+}
+
+#change-profile-pic {
+  margin-top: 2rem;
+  width: 25%;
+}
+
+#profile-name {
+  margin-top: 2rem;
+}
+
+.profile-picture-section {
+  display: flex;
+  flex-direction: column;
+}
+
+#delete-btn {
+  background-color: #e40f0f;
+  color: white;
+  margin-top: 5rem;
+  width: 25%;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-submit {
+  width: 15%;
+  border-radius: 5px;
+  padding: 0.5vh 1vw;
+  font-size: 1.8vh;
+  transition: all 0.8s;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.profile-submit:hover {
+  cursor: pointer;
+  background-color: rgb(211, 211, 211);
+}
+
+#profile-modify {
+  margin-top: 2rem;
+}
+
+.labels {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.profile-input {
+  width: 35%;
+  margin-bottom: 1rem;
+}
