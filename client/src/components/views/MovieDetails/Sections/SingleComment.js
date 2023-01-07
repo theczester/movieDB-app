@@ -70,7 +70,7 @@ function SingleComment(props) {
           />
           <br />
           <Button
-            style={{ width: "20%", height: "52px", marginTop: "-1.7rem" }}
+            style={{ width: "40%", height: "52px", marginTop: "-1.7rem" }}
             onClick={(e) => onSubmit(e)}
           >
             Reply

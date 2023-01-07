@@ -82,7 +82,7 @@ function Comments(props) {
         />
         <br />
         <Button
-          style={{ width: "10%", height: "52px", marginTop: "-1.7rem" }}
+          style={{ width: "20%", height: "52px", marginTop: "-1.7rem" }}
           onClick={(e) => onSubmit(e)}
         >
           Comment
